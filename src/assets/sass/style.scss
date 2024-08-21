@@ -1,0 +1,23 @@
+@import url(./reset.css);
+
+@import 'basic/color';
+@import 'basic/font';
+@import 'basic/var';
+
+@import 'component/btn';
+
+@import 'mixins/mixins';
+
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'page/index';
+
+.spec{
+    color: map-get($colors , yellow );
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+
+

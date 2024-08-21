@@ -1,0 +1,6 @@
+@mixin btn($color,$radious:true){
+    width: 300px;
+    padding: 10px 20px;
+    background-color: $color;
+    
+}
