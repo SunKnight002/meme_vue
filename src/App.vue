@@ -19,7 +19,7 @@ const showMenuBar = () => {
     <RouterLink to="/"><img src="@/assets/img/memelogo.svg" alt="Meme Logo" /></RouterLink>
     <i class="fa fa-bars" aria-hidden="true" @click="showMenuBar"></i>
         <ul id="menuBar">
-          <li><RouterLink to="/fontpage">線上體驗</RouterLink></li>
+          <li><RouterLink to="/FontPage">線上體驗</RouterLink></li>
           <li><RouterLink to="/about">遊戲主題</RouterLink></li>
           <li><RouterLink to="/member">會員專區</RouterLink></li>
         </ul>
@@ -34,6 +34,8 @@ const showMenuBar = () => {
         </section>
     </section>
 
+    <RouterView />
+    
     <footer>
         <div class="bottom">
             <div><img src="./src/assets/img/memelogo.svg" alt=""></div>
@@ -51,7 +53,7 @@ const showMenuBar = () => {
         </div>
     </footer>
 
-  <RouterView />
+
 </template>
 
 <style scoped>
