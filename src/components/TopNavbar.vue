@@ -1,7 +1,7 @@
 <template>
   <header class="top">
     <!-- 這是logo，點了之後回到index.html -->
-    <router-link to="/home"><img src="../assets/img/memelogo.svg" alt=""></router-link>
+    <router-link to="/"><img src="../assets/img/memelogo.svg" alt=""></router-link>
     <!-- <i class="fa fa-bars" aria-hidden="true" @click="showMenuBar()"></i> -->
     <font-awesome-icon class="menu-icon" icon="bars" @click="showMenuBar"></font-awesome-icon>
     <!-- 這是列表，透過router連結到其他 .vue 頁面 -->
